@@ -70,3 +70,10 @@ p {
     padding-right: 25%;
     font-size: large
 }
+tr:hover {
+    background-color: lightgray;
+}
+#books, #notebooks, #planners {
+    display: flex;
+    justify-content: center;
+}
