@@ -65,3 +65,8 @@ input[type=reset] {
 .li_nav_bar a:hover {
     background-color:#D2B48C;
 }
+p {
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: large
+}
