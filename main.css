@@ -42,3 +42,8 @@ input[type=reset] {
     text-align: center;
     color: #5C3317;
 }
+.orderform {
+    font-size: large;
+    color: #5C3317;
+    font-family: 'Courier New', Courier, monospace
+}
