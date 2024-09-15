@@ -13,3 +13,28 @@ h2,h3 {
     text-align: center;
     color: #5C3317;
 }
+.form {
+    font-size: large;
+    color: #5C3317;
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type=text],textarea{
+    width: 30%;
+    border-end-end-radius: 10px;
+}
+input[type=email]{
+    width: 30%;
+    border-end-end-radius: 10px;
+}
+input[type=submit]{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #5C3317;
+    color: white;
+    cursor: pointer;
+}
+input[type=reset]{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #5C3317;
+    color: white;
+    cursor: pointer;
+}
