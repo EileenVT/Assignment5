@@ -47,3 +47,21 @@ input[type=reset] {
     color: #5C3317;
     font-family: 'Courier New', Courier, monospace
 }
+#ul_nav_bar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5C3317;
+}
+.li_nav_bar {
+    display: inline-block;
+}
+.li_nav_bar a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 16px;
+}
+.li_nav_bar a:hover {
+    background-color:#D2B48C;
+}
