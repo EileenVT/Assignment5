@@ -1,4 +1,5 @@
-.logo {
+/* External CSS */
+.logo { /* adds css styling to classes*/
     text-align: center;
 }
 .coupon {
@@ -9,7 +10,7 @@ h1 {
     color: #5C3317;
     border-bottom: solid #5C3317;
 }
-h2,h3 {
+h2,h3 { /* adds same style to multiple selectors */
     text-align: center;
     color: #5C3317;
 }
@@ -38,7 +39,7 @@ input[type=reset] {
     color: white;
     cursor: pointer;
 }
-#books, #notebooks, #planners {
+#books, #notebooks, #planners { /* adds css styling to ids */
     text-align: center;
     color: #5C3317;
 }
@@ -56,7 +57,7 @@ input[type=reset] {
 .li_nav_bar {
     display: inline-block;
 }
-.li_nav_bar a {
+.li_nav_bar a { /* adds css styling to sub-element*/
     display: block;
     color: aliceblue;
     text-align: center;
@@ -77,12 +78,12 @@ tr:hover {
     display: flex;
     justify-content: center;
 }
-a {
+a { /* adds css styling to links in its normal state*/
     text-decoration: none; /* removes line from hyperlink */
 }
-a:hover {
-    background-color: #D2B48C
+a:hover { /* adds css styling to conditional css for hover*/
+    background-color: #D2B48C /* adds color when hovering */
 }
 body {
-    background-color: #F9F6EE;
+    background-color: #F9F6EE; /* adds background color to body */
 }
