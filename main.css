@@ -77,3 +77,11 @@ tr:hover {
     display: flex;
     justify-content: center;
 }
+
+a {
+    text-decoration: none; /* removes line from hyperlink */
+}
+
+a:hover {
+    background-color: #D2B48C
+}
